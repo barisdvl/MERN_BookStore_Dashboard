@@ -1,0 +1,60 @@
+.productList {
+  flex: 4;
+}
+
+.productTitleContainer {
+  display: flex;
+  margin: 10px 20px 10px 10px;
+  justify-content: space-between;
+}
+
+.productAddButton{
+  border: none;
+  padding: 5px;
+  background-color: rgb(10, 110, 241);
+  color: white;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.searchBoxContainer {
+  display: flex;
+  align-items: flex-end;
+  justify-content: stretch;
+  margin-left: 100px;
+}
+
+.productListItem {
+  display: flex;
+  align-items: center;
+}
+
+.actionContainer{
+    display: flex;
+    align-items: center;
+}
+.productListEditBtn {
+  border: none;
+  border-radius: 10px;
+  padding: 5px 10px;
+  background-color: #3bb077;
+  color: white;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.productListDeleteBtn {
+  border: none;
+  border-radius: 10px;
+  padding: 5px 10px;
+  background-color: #ee6868;
+  color: white;
+  cursor: pointer;
+}
+
+.productListTable{
+  display: flex;
+  height: 85%;
+}
+

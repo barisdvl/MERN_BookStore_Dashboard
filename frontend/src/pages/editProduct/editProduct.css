@@ -1,0 +1,110 @@
+.editProduct {
+  flex: 4;
+}
+
+.editProductForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.editProductTop{
+  display: flex;
+}
+
+.editProductTopLeft {
+  display: flex;
+  flex: 5;
+  flex-wrap: wrap;
+}
+
+.editProductItem {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+
+.editProductItem > label {
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(151, 150, 150);
+}
+
+.editProductItem > input {
+  height: 20px;
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+.editProductBottom {
+  width: 92%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.editProductTextArea {
+  flex: 5;
+  display: flex;
+  flex-direction: column;
+}
+
+.editProductTextArea > label {
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(151, 150, 150);
+}
+
+.editProductTextArea > textarea {
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+
+.editProductTopRight {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.editImgProductItem {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+
+.editImgProductItem > label {
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(151, 150, 150);
+}
+
+.editProductImg{  
+  height: 200px;
+  margin-top: 20px;
+  margin-right: 25px;
+}
+
+.editProductSubmit {
+  display: flex;
+  margin: 20px 0px 0px 20px;
+}
+
+.editProductSumbitBtn {
+  display: flex;
+  flex: 1;
+  border: none;
+  text-decoration: none;
+  padding: 16px 32px;
+  color: white;
+  background-color: darkblue;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 17px;
+  cursor: pointer;
+}
