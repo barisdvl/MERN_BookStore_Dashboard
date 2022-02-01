@@ -88,6 +88,9 @@ I suggest _ for both side(backend and frontend) running. I f you use it. main fo
    //in main folder
    npm run dev
    ```
+#### Admin Login
+username: admin
+password: password
 ### Screenshots from project
 ![dashboard-login](https://user-images.githubusercontent.com/62984011/151654626-44a394f8-5814-43b3-81ee-693adbcf6942.png)
 ![dashboard-2](https://user-images.githubusercontent.com/62984011/151654624-3aba733d-70f3-4885-bd10-161db21cc091.png)
