@@ -25,22 +25,24 @@ export default function WidgetSm() {
       <h3 className="widgetSmTitle">New Join Members</h3>
       <ul className="widgetSmList">
         {users.map((user) => {
-          return (
-            <Fragment key={user._id}>
-              <li className="widgetSmItem">
-                <img src={user.img} alt="" className="widgetSmImg" />
-                <div className="widgetSmUser">
-                  <span className="widgetSmUsername">{user.full_name}</span>
-                  <span className="widgetSmUserTitle">{user.email}</span>
-                </div>
-                <Link to={"/user/" + user._id}>
-                  <button className="widgetSmButton">
-                    <Visibility className="widgetSmIcon" />
-                  </button>
-                </Link>
-              </li>
-            </Fragment>
-          );
+          if (!user.isAdmin) {
+            return (
+              <Fragment key={user._id}>
+                <li className="widgetSmItem">
+                  <img src={user.img} alt="" className="widgetSmImg" />
+                  <div className="widgetSmUser">
+                    <span className="widgetSmUsername">{user.full_name}</span>
+                    <span className="widgetSmUserTitle">{user.email}</span>
+                  </div>
+                  <Link to={"/user/" + user._id}>
+                    <button className="widgetSmButton">
+                      <Visibility className="widgetSmIcon" />
+                    </button>
+                  </Link>
+                </li>
+              </Fragment>
+            );
+          }
         })}
       </ul>
     </div>
